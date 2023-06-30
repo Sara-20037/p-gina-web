@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'floane';
+    src: url('./fonts/Floane-Regular.otf');
+}
+
+@font-face {
+    font-family: 'Trebuc';
+    src: url(./fonts/trebuc.ttf);
+}
+
+#menu{
+    font-family: 'floane';
+    font-size: 30px;
+    
+}
+.menu-container{
+    background-color: white;
+    
+} 
+.nav-link{
+    margin-right: 5px;
+    color:  #008055 !important;
+}
+
+.nav-link:hover{
+    border-bottom: solid;
+    border-color:  #008055;
+    padding: 0;
+    transition:  all 0.3s linear;
+/*     border-width: 1px;
+ */    }
+
+.barra{
+    border-radius: 4px;
+}
+
+.navbar-togger-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+}
+
+.proyecto{
+    font-family: 'floane';
+    color: #008055;
+}
+.proyecto-text{
+    font-family: 'trebuc';
+    text-align: justify;
+    font-size: 18px;
+}
+.button-play{
+    background-color:#008055 !important ;
+    color: white ;
+    font-family: 'floane';
+    font-size: 25px;
+    border: #008055;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.button-play:hover{
+    background-color: #f9ad35 !important;
+    color: #090a0a;
+}
+.tit-personajes{
+    font-family: 'floane';
+}
+.Metodologia{
+   /*  background-image: url(./images/metodologia1.png); */
+    opacity:  95%;
+    height: 450px;
+}
+.text-metodologia{
+    font-family: 'floane';
+   color: white;
+    
+}
+/* .content-metodologia{
+    opacity: 90%;
+    border-radius: 1rem;
+    padding: 60px;
+} */
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 0 30rem 20rem 30rem; */
+    padding: 30px;
+}
+
+.parrafo-metodologia{
+    font-family: 'Trebuc';
+    text-align: justify;
+    color: white;
+}
+.personajes-tit{
+    font-family: 'floane';
+    color: #008055;
+}
+
+.flin{
+   border-color: #008055  !important;
+    
+}
+
+.taurus{
+    border-color: #008055  !important;
+}
+.contaminator{
+    border-color: #008055 !important;
+}
+.flin1{
+    object-fit: cover ;
+    overflow:hidden;
+}
+
+.flin1:hover{
+    
+    transform:scale(1.05);
+}
+.taurus1{
+    object-fit: cover ;
+    overflow:hidden;
+}
+.taurus1:hover{
+    transform:scale(1.05);
+}
+.contaminator1{
+    object-fit: cover ;
+    overflow:hidden;
+}
+.contaminator1:hover{
+    transform:scale(1.05);
+}
+.card-flin:hover{
+    background-color: #ffdcc5;
+}
+.card-taurus:hover{
+    background-color: #d4fec9;
+}
+.card-contaminator:hover{
+    background-color: #e0d2ff;
+}
+.btn{
+    background-color: #5892ac;
+}
+.btn-c{
+    background-color: #5892ac;
+}
+
+/* equipo */
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+.ir-arriba{
+    animation: pelota 0.3s infinite alternate ease-out;
+    border-radius: 30px;
+    display: none;
+    padding: 20px;
+    font-size: 20px;
+    color: #090a0a;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+@keyframes pelota {
+    0% {
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+  
+
+
